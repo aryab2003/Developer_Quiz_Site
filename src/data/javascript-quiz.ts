@@ -1994,6 +1994,18 @@ const javascriptQuiz = [
     Explanation:
       "Declaring an asynchronous function generates an AsyncFunction object. Whenever this async function is invoked, it produces a fresh Promise. This Promise will either resolve with the value returned by the async function or reject if there's an uncaught exception within the async function.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+  },
+   {
+    Question:
+      "Which JavaScript function should you use to create a new array containing the squares of elements from an existing array?",
+    Answer: "map",
+    Distractor1: "filter",
+    Distractor2: "reduce",
+    Distractor3:
+      "slice",
+    Explanation:
+      "The correct option is 'map' as it is used to create a new array by applying a function to each element of an existing array. In this case, it's employed to square the elements from the original array.",
+    Link: "https://www.freecodecamp.org/news/javascript-coding-interview-practice/"
   }
 ];
 
